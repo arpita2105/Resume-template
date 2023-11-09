@@ -37,7 +37,7 @@ color: white;
 
 .boxa .box1{
 grid-row:1;
-background-color: blue;
+background-color:rgb(58, 112, 219); 
 }
 .box1 .avatar{
 display: flex;
@@ -95,7 +95,7 @@ margin-top: 0.3em;
 } 
 
 .skill { 
-    background-color: blue; 
+    background-color:rgb(58, 112, 219);  
     color: white; 
     padding: 1%; 
     text-align: right; 
@@ -145,7 +145,8 @@ padding: 0.3em 0.6em 0.3em 1.5em;
 }
 .objective{
     font-size: 1.2em;
-    color:blue;
+    color:rgb(58, 112, 219); 
+    font-weight: 600;
 }
 .box3 hr, .box4 hr, .box5 hr, .box6 hr{
     margin-top: 0.3em;
@@ -173,9 +174,14 @@ padding: 0.3em 0.6em 0.3em 1.5em;
 }
 .arrow span{
 margin: 1em;
+font-weight: bold;
+}
+.from-to span{
+    font-weight: bold;
 }
 .company{
 color: black;
+font-weight: bold;
 margin:0.2em 0 0 2.2em;
 }
 .role_content{
